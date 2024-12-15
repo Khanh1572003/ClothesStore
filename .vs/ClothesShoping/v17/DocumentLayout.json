@@ -1,0 +1,576 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual\\ClothesShoping\\ClothesShoping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\migrations\\20241212232303_trangtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:migrations\\20241212232303_trangtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\migrations\\clothesshopingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:migrations\\clothesshopingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\binhluanbaiviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\binhluanbaiviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\baiviet\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\baiviet\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\baiviet\\chude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\baiviet\\chude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\baiviet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\baiviet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\baiviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\baiviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\controllers\\binhluanbaivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\controllers\\binhluanbaivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\controllers\\chudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\controllers\\chudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\binhluanbaiviet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\binhluanbaiviet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\binhluanbaiviet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\binhluanbaiviet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\binhluanbaiviet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\binhluanbaiviet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\binhluanbaiviet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\binhluanbaiviet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\baiviet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\baiviet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\baiviet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\baiviet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\baiviet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\baiviet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\chude\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\chude\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\chude\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\chude\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\chude\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\chude\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\chude\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\chude\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\clothesshopingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\clothesshopingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\chude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\chude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\models\\dathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:models\\dathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\views\\sanpham\\phanloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:views\\sanpham\\phanloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\views\\sanpham\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:views\\sanpham\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|e:\\visual\\clothesshoping\\clothesshoping\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A734BB-A3E3-4CBC-B714-2F9AED0C98CB}|ClothesShoping.csproj|solutionrelative:controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 174,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClothesShopingDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Migrations\\ClothesShopingDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ClothesShopingDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Migrations\\ClothesShopingDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ClothesShopingDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:56:15.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BaiViet\\ChiTiet.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\ChiTiet.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BaiViet\\ChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:39:17.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChuDe.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\ChuDe.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BaiViet\\ChuDe.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\ChuDe.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BaiViet\\ChuDe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T00:38:34.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaiVietController.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Controllers\\BaiVietController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaiVietController.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Controllers\\BaiVietController.cs",
+              "RelativeToolTip": "Controllers\\BaiVietController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwG8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:36:27.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Delete.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Delete.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:34:13.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Edit.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:34:07.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Create.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:34:00.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Index.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BinhLuanBaiViet\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BinhLuanBaiViet\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:33:49.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BaiViet\\Delete.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BaiViet\\Delete.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:33:37.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BaiViet\\Edit.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BaiViet\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:33:31.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BaiViet\\Create.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BaiViet\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwEwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:33:22.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\BaiViet\\Index.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\BaiViet\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\BaiViet\\Index.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwG8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:33:09.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ChuDe\\Delete.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ChuDe\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:33:01.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ChuDe\\Edit.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ChuDe\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:32:53.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ChuDe\\Create.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ChuDe\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:32:41.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ChuDe\\Index.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\ChuDe\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ChuDe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:32:29.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwF4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:29:31.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BinhLuanBaiVietController.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Controllers\\BinhLuanBaiVietController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BinhLuanBaiVietController.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Controllers\\BinhLuanBaiVietController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\BinhLuanBaiVietController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwIcAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:28:20.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaiVietController.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Controllers\\BaiVietController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BaiVietController.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Controllers\\BaiVietController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\BaiVietController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwIsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:27:43.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChuDeController.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Controllers\\ChuDeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ChuDeController.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Areas\\Admin\\Controllers\\ChuDeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ChuDeController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:26:47.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241212232303_TrangTin.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Migrations\\20241212232303_TrangTin.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241212232303_TrangTin.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Migrations\\20241212232303_TrangTin.cs",
+              "RelativeToolTip": "Migrations\\20241212232303_TrangTin.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwFIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:23:03.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DatHang.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\DatHang.cs",
+              "RelativeDocumentMoniker": "Models\\DatHang.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\DatHang.cs",
+              "RelativeToolTip": "Models\\DatHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:21:28.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClothesShopingDbContext.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\ClothesShopingDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ClothesShopingDbContext.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\ClothesShopingDbContext.cs",
+              "RelativeToolTip": "Models\\ClothesShopingDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:20:57.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "Models\\NguoiDung.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "Models\\NguoiDung.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:20:34.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BinhLuanBaiViet.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\BinhLuanBaiViet.cs",
+              "RelativeDocumentMoniker": "Models\\BinhLuanBaiViet.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\BinhLuanBaiViet.cs",
+              "RelativeToolTip": "Models\\BinhLuanBaiViet.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:20:07.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaiViet.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\BaiViet.cs",
+              "RelativeDocumentMoniker": "Models\\BaiViet.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\BaiViet.cs",
+              "RelativeToolTip": "Models\\BaiViet.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:19:47.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChuDe.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\ChuDe.cs",
+              "RelativeDocumentMoniker": "Models\\ChuDe.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\ChuDe.cs",
+              "RelativeToolTip": "Models\\ChuDe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:19:32.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Views\\SanPham\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPham\\ChiTiet.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Views\\SanPham\\ChiTiet.cshtml",
+              "RelativeToolTip": "Views\\SanPham\\ChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:10:26.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Models\\SanPham.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Models\\SanPham.cs",
+              "RelativeToolTip": "Models\\SanPham.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:08:44.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PhanLoai.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Views\\SanPham\\PhanLoai.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPham\\PhanLoai.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Views\\SanPham\\PhanLoai.cshtml",
+              "RelativeToolTip": "Views\\SanPham\\PhanLoai.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:06:33.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SanPhamController.cs",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T23:05:03.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPham\\Index.cshtml",
+              "ToolTip": "E:\\Visual\\ClothesShoping\\ClothesShoping\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "Views\\SanPham\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T23:04:04.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
