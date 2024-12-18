@@ -13,7 +13,7 @@ namespace ClothesShoping.Controllers
         {
             _context = context;
         }
-
+        
         // GET: Index 
         public IActionResult Index(int? trang)
         {
@@ -23,8 +23,6 @@ namespace ClothesShoping.Controllers
             else
                 return View(danhSach);
         }
-
-
 
         private PhanTrangSanPham LayDanhSachSanPham(int trangHienTai)
         {
@@ -86,6 +84,25 @@ namespace ClothesShoping.Controllers
                 return NotFound();
             else
                 return View(sanPham);
+        }
+        public IActionResult TimKiemSanPhamTheoTen(string tenSanPham,int trang =1)
+        {
+            int maxRows = 20;
+             var sanPhams = _context.SanPham
+                .Include(s => s.HangSanXuat)
+                .Include(s => s.LoaiSanPham)
+                .Where(s => s.TenSanPham.Contains(tenSanPham) || s.LoaiSanPham.TenLoai.Contains(tenSanPham)); 
+            var phanTrang = new PhanTrangSanPham
+            { 
+                SanPham = sanPhams
+                .OrderBy(r => r.TenSanPham)
+                .Skip((trang - 1) * maxRows)
+                .Take(maxRows).ToList(),
+                TongSoTrang = (int)Math.Ceiling(sanPhams.Count() / (double)maxRows), 
+                TrangHienTai = trang
+            }; 
+                ViewBag.SearchString = tenSanPham; 
+                return View(phanTrang);
         }
     }
 }

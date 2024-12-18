@@ -1,4 +1,5 @@
 ﻿using ClothesShoping.Logic;
+using ClothesShoping.Migrations;
 using ClothesShoping.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,8 +19,6 @@ namespace ClothesShoping.Controllers
         {
             GioHangLogic gioHangLogic = new GioHangLogic(_context);
             var gioHang = gioHangLogic.LayGioHang();
-
-
             if (gioHang.Count == 0)
                 return View("GioHangRong");
             else

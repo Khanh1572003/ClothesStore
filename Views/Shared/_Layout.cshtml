@@ -41,9 +41,23 @@
                             <img src="~/img/logo-icon.png" width="74" />
                         </a>
                         <div class="input-group d-none d-lg-flex mx-4">
-                            <input class="form-control rounded-end pe-5" type="text" placeholder="Tìm kiếm" />
-                            <i class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"></i>
-                        </div>
+     <input class="form-control rounded-end pe-5" type="text" placeholder="Tìm kiếm" id="searchInput" />
+    <a asp-area="" asp-controller="SanPham" asp-action="TimKiem" 
+       asp-route-searchString="@ViewBag.SearchString" 
+       class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"
+       onclick="submitSearch()">
+    </a>                        
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        function submitSearch() {
+            var searchString = document.getElementById("searchInput").value;
+            var url = '@Url.Action("TimKiem", "SanPham")' + '?searchString=' + encodeURIComponent(searchString);
+            window.location.href = url;
+        }
+    </script>
+}
                         <div class="navbar-toolbar d-flex flex-shrink-0 align-items-center">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                 <span class="navbar-toggler-icon"></span>
@@ -56,7 +70,7 @@
                             {
                                 <a class="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2" asp-area="" asp-controller="Home" asp-action="Login">
                                     <div class="navbar-tool-icon-box"><i class="navbar-tool-icon ci-user"></i></div>
-                                    <div class="navbar-tool-text ms-n3"><small>Xin chào</small>Khách hàng</div>
+                                    <div class="navbar-tool-text ms-n3"><small>Xin chào</small>Khách hàng</div>              
                                 </a>
                             }
                             else
@@ -69,13 +83,14 @@
                                     </div>
                                 </a>
                             }
+                            
                         </div>
                             <div class="navbar-tool ms-3">
                                 <a class="navbar-tool-icon-box bg-secondary" asp-area="" asp-controller="GioHang" asp-action="Index">
                                     <span class="navbar-tool-label">1</span><i class="navbar-tool-icon ci-cart"></i>
                                 </a>
-                                <a class="navbar-tool-text" asp-area="" asp-controller="GioHang" asp-action="Index"><small>Giỏ hàng</small>3.000.000đ</a>
-                            </div>
+                            <a class="navbar-tool-text" asp-area="" asp-controller="GioHang" asp-action="Index"><small>Giỏ hàng</small>0đ </a>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -99,9 +114,10 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" asp-area="" asp-controller="SanPham" asp-action="Index" data-bs-toggle="dropdown" data-bs-auto-close="outside"><i class="ci-gift me-2"></i>Sản phẩm</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="dien-thoai">Điện thoại</a></li>
-                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="may-tinh-bang">Máy tính bảng</a></li>
-                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="may-tinh-xach-tay">Máy tính xách tay</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="ao-thun">Áo thun</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="ao-so-mi">Áo sơ mi</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="ao-polo">Áo polo</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="SanPham" asp-action="PhanLoai" asp-route-tenLoai="ao-khoac">Áo khoác</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -151,7 +167,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">Bản quyền © 2023 bởi ITShop.</div>
+                <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">Bản quyền © 2024 bởi Nhom02</div>
             </div>
         </div>
     </footer>

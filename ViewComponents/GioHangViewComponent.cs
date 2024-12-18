@@ -12,7 +12,6 @@ namespace ClothesShoping.ViewComponents
         {
             _context = context;
         }
-
         public async Task<IViewComponentResult> InvokeAsync()
         {
             GioHangLogic gioHangLogic = new GioHangLogic(_context);

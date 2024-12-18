@@ -21,59 +21,49 @@ namespace ClothesShoping.Controllers
             _httpContextAccessor = httpContextAccessor;
             _mailLogic = mailLogic;
         }
+
         public IActionResult Index(string? successMessage)
         {
             int maNguoiDung = Convert.ToInt32(_httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "ID")?.Value);
-            var nguoiDung = _context.NguoiDung.Where(r => r.ID == maNguoiDung).Include(s => s.DatHang).SingleOrDefault();
+            var nguoiDung = _context.NguoiDung
+                .Where(r => r.ID == maNguoiDung)
+                .Include(s => s.DatHang)
+                .SingleOrDefault();
+
             if (nguoiDung == null)
-            {
                 return NotFound();
-            }
+
             int soLuongDonHang = nguoiDung.DatHang.Count();
             TempData["SoLuongDonHang"] = soLuongDonHang;
             if (!string.IsNullOrEmpty(successMessage))
                 TempData["ThongBao"] = successMessage;
+
             return View(new NguoiDung_ChinhSua(nguoiDung));
         }
 
-        // POST: CapNhatHoSo 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CapNhatHoSo(int id, [Bind("ID,HoVaTen,Email,DienThoai,DiaChi,TenDangNhap,MatKhau,XacNhanMatKhau")] NguoiDung_ChinhSua nguoiDung)
         {
             if (id != nguoiDung.ID)
-            {
                 return NotFound();
-            }
+
             if (ModelState.IsValid)
             {
-
-
                 try
                 {
-                    var n = _context.NguoiDung.Find(id);
+                    var n = await _context.NguoiDung.FindAsync(id);
 
-                    // Giữ nguyên mật khẩu cũ 
                     if (nguoiDung.MatKhau == null)
                     {
-                        n.ID = nguoiDung.ID;
                         n.HoVaTen = nguoiDung.HoVaTen;
                         n.DienThoai = nguoiDung.DienThoai;
                         n.DiaChi = nguoiDung.DiaChi;
-                        n.TenDangNhap = n.TenDangNhap;
-                        n.XacNhanMatKhau = n.MatKhau;
-                        n.Quyen = n.Quyen;
                     }
-                    else // Cập nhật mật khẩu mới 
+                    else
                     {
-                        n.ID = nguoiDung.ID;
-                        n.HoVaTen = nguoiDung.HoVaTen;
-                        n.DienThoai = nguoiDung.DienThoai;
-                        n.DiaChi = nguoiDung.DiaChi;
-                        n.TenDangNhap = n.TenDangNhap;
                         n.MatKhau = BC.HashPassword(nguoiDung.MatKhau);
                         n.XacNhanMatKhau = BC.HashPassword(nguoiDung.MatKhau);
-                        n.Quyen = n.Quyen;
                     }
 
                     _context.Update(n);
@@ -83,100 +73,95 @@ namespace ClothesShoping.Controllers
                 {
                     throw new Exception(ex.Message.ToString());
                 }
-                return RedirectToAction("Index", "KhachHang", new { Area = "", successMessage = "Đã cập nhật thông tin thành công." });
+
+                return RedirectToAction("Index", new { successMessage = "Đã cập nhật thông tin thành công." });
             }
+
             return View("Index", nguoiDung);
         }
-        // GET: Index 
-        public IActionResult Index()
-        {
 
-            return View();
-        }
-
-        // GET: DatHang 
         public IActionResult DatHang()
         {
-            GioHangLogic gioHangLogic = new GioHangLogic(_context);
+            var gioHangLogic = new GioHangLogic(_context);
             var gioHang = gioHangLogic.LayGioHang();
+            TempData["TongTien"] = gioHangLogic.LayTongTienSanPham();
 
-
-            decimal tongTien = gioHangLogic.LayTongTienSanPham();
-            TempData["TongTien"] = tongTien;
             return View(gioHang);
         }
 
-        // POST: DatHang 
         [HttpPost]
         public async Task<IActionResult> DatHang(DatHang datHang)
         {
-            GioHangLogic gioHangLogic = new GioHangLogic(_context);
+            var gioHangLogic = new GioHangLogic(_context);
             var gioHang = gioHangLogic.LayGioHang();
 
             if (string.IsNullOrWhiteSpace(datHang.DienThoaiGiaoHang) || string.IsNullOrWhiteSpace(datHang.DiaChiGiaoHang))
             {
-                decimal tongTien = gioHangLogic.LayTongTienSanPham();
-                TempData["TongTien"] = tongTien;
+                TempData["TongTien"] = gioHangLogic.LayTongTienSanPham();
                 TempData["ThongBaoLoi"] = "Thông tin giao hàng không được bỏ trống.";
                 return View(gioHang);
             }
-            else
+
+            try
             {
-                DatHang dh = new DatHang();
-                dh.NguoiDungID = Convert.ToInt32(_httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "ID")?.Value);
-                dh.TinhTrangID = 1; // Đơn hàng mới 
-                dh.DienThoaiGiaoHang = datHang.DienThoaiGiaoHang;
-                dh.DiaChiGiaoHang = datHang.DiaChiGiaoHang;
-                dh.NgayDatHang = DateTime.Now;
+                var dh = new DatHang
+                {
+                    NguoiDungID = Convert.ToInt32(_httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "ID")?.Value),
+                    TinhTrangID = 1,
+                    DienThoaiGiaoHang = datHang.DienThoaiGiaoHang,
+                    DiaChiGiaoHang = datHang.DiaChiGiaoHang,
+                    NgayDatHang = DateTime.Now
+                };
+
                 _context.DatHang.Add(dh);
                 await _context.SaveChangesAsync();
 
                 foreach (var item in gioHang)
                 {
-                    DatHang_ChiTIet ct = new DatHang_ChiTIet();
-                    ct.DatHangID = dh.ID;
-                    ct.SanPhamID = item.SanPhamID;
-                    ct.SoLuong = Convert.ToInt16(item.SoLuongTrongGio);
-                    ct.DonGia = item.SanPham.DonGia;
+                    var ct = new DatHang_ChiTIet
+                    {
+                        DatHangID = dh.ID,
+                        SanPhamID = item.SanPhamID,
+                        SoLuong = Convert.ToInt16(item.SoLuongTrongGio),
+                        DonGia = item.SanPham.DonGia
+                    };
                     _context.DatHang_ChiTiet.Add(ct);
                     await _context.SaveChangesAsync();
                 }
 
-                // Gởi email 
-                try
-                {
-                    MailInfo mailInfo = new MailInfo();
-                    mailInfo.Subject = "Đặt hàng thành công tại ITShop.Com.Vn";
+                var mailInfo = new MailInfo { Subject = "Đặt hàng thành công tại ClothesShop.Com.Vn" };
+                var datHangInfo = _context.DatHang
+                    .Where(r => r.ID == dh.ID)
+                    .Include(s => s.NguoiDung)
+                    .Include(s => s.DatHang_ChiTiet)
+                    .SingleOrDefault();
 
-
-                    var datHangInfo = _context.DatHang.Where(r => r.ID == dh.ID)
-                        .Include(s => s.NguoiDung)
-                        .Include(s => s.DatHang_ChiTiet).SingleOrDefault();
-                    await _mailLogic.GoiEmailDatHangThanhCong(datHangInfo, mailInfo);
-                }
-                catch (Exception ex)
-                {
-                    throw new Exception(ex.Message.ToString());
-                }
-
-                return RedirectToAction("DatHangThanhCong", "KhachHang", new { Area = "" });
+                await _mailLogic.GoiEmailDatHangThanhCong(datHangInfo, mailInfo);
             }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message.ToString());
+            }
+
+            return RedirectToAction("DatHangThanhCong");
         }
+
         public async Task<IActionResult> DonHangCuaToi()
         {
             int maNguoiDung = Convert.ToInt32(_httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "ID")?.Value);
-            var datHang = _context.DatHang.Where(r => r.NguoiDungID == maNguoiDung)
+            var datHang = _context.DatHang
+                .Where(r => r.NguoiDungID == maNguoiDung)
                 .Include(d => d.NguoiDung)
                 .Include(d => d.TinhTrang)
                 .Include(d => d.DatHang_ChiTiet)
                 .ThenInclude(s => s.SanPham);
+
             return View(await datHang.ToListAsync());
         }
-        // GET: DatHangThanhCong 
+
         public IActionResult DatHangThanhCong()
         {
-            // Xóa giỏ hàng sau khi hoàn tất đặt hàng 
-            GioHangLogic gioHangLogic = new GioHangLogic(_context);
+            var gioHangLogic = new GioHangLogic(_context);
             gioHangLogic.XoaTatCa();
 
             return View();
